@@ -1,0 +1,73 @@
+.info-container {
+  width: 350px;
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.menu {
+  text-align: center;
+  margin: 0;
+  height: 120px;
+  width: 100%;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+}
+
+.clickButton {
+  display: inline-block;
+  padding: 0.5em 3em;
+  border: 0.16em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: #000000;
+  text-align: center;
+  transition: all 0.15s;
+  width: 200px;
+}
+.clickButton:hover {
+  color: #dddddd;
+  border-color: #dddddd;
+}
+.clickButton:active {
+  color: #bbbbbb;
+  border-color: #bbbbbb;
+}
+
+li {
+  height: 30px;
+  padding-top: 3px;
+}
+
+.no-bullet {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li.red-square {
+  background: url("/images/red-square.png") no-repeat left top;
+  padding-left: 44px;
+}
+
+li.green-square {
+  background: url("/images/green-square.png") no-repeat left top;
+  padding-left: 44px;
+}
+
+li.yellow-square {
+  background: url("/images/yellow-square.png") no-repeat left top;
+  padding-left: 44px;
+}
+
+li.numbers-square {
+  background: url("/images/numbers.png") no-repeat left top;
+  padding-left: 44px;
+}
